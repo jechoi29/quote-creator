@@ -1,5 +1,7 @@
 # Quote Creator
 
-`npx create-react-app`
-`npm start`
-`npm run build`
+set up react app
+
+- `npx create-react-app`
+- `npm start`
+- `npm run build`
