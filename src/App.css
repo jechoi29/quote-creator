@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #ffffff;
+  color: #000000;
 }
 
 .App-header {
@@ -34,4 +35,26 @@
 
 .button-wrap {
   padding-top: 10%;
+}
+
+.card-wrap {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  padding: 17rem;
+}
+
+.card-body {
+  padding: 3rem;
+}
+
+.inspirational-quote {
+  padding-bottom: 3rem;
+  font-family: Georgia, Times, Times New Roman, serif;
+  color: #000000;
+  font-size: 2rem;
+}
+
+.quote-author {
+  color: #595959;
 }

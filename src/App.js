@@ -21,10 +21,17 @@ function App() {
           </div>
         </div>
       </header>
-      <div className="card-wrapper">
-        <Card type="inner" title="Inspirational Quote">
-          <div className="inspirational-quote">Inspirational quote here...</div>
-          <div className="quote-author">author of quote here</div>
+      <div className="card-wrap">
+        <Card title="Inspirational Quote">
+          <div className="card-body">
+            <div className="inspirational-quote">
+              Inspirational quote here...
+            </div>
+            <div className="quote-author">⁠— author of quote here</div>
+          </div>
+          <Button type="primary" size="large">
+            Create New Quote
+          </Button>
         </Card>
       </div>
     </div>
