@@ -16,11 +16,13 @@
   font-family: Georgia, Times, Times New Roman, serif;
   font-size: 16rem;
   line-height: 0%;
+  color: #000000;
 }
 
 .app-title {
   font-family: Georgia, Times, Times New Roman, serif;
   font-size: 4rem;
+  color: #000000;
 }
 
 .app-description {
@@ -31,4 +33,5 @@
 }
 
 .button-wrap {
+  padding-top: 10%;
 }
