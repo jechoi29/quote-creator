@@ -7,3 +7,4 @@ set up react app
 - `npm run build`
 
 use ant design UI kit [here](https://ant.design/docs/react/introduce)
+api documentation for getting famous quotes (https://github.com/lukePeavey/quotable)

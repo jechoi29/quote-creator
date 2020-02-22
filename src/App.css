@@ -2,6 +2,16 @@
   text-align: center;
   background-color: #ffffff;
   color: #000000;
+
+  /* center content to the page */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-header {
@@ -41,18 +51,23 @@
   text-align: left;
   display: flex;
   justify-content: center;
-  padding: 17rem;
+}
+
+.ant-card {
+  width: 90%;
+  max-width: 700px;
 }
 
 .card-body {
-  padding: 3rem;
+  padding: 2rem;
+  width: 95%;
 }
 
 .inspirational-quote {
   padding-bottom: 3rem;
   font-family: Georgia, Times, Times New Roman, serif;
   color: #000000;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .quote-author {
