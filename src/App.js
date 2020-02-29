@@ -43,7 +43,7 @@ function App() {
             <div className="app-description">
               Create an inspirational quote
               <br />
-              with a single click.
+              with a single click
             </div>
             <div className="button-wrap">
               <Button type="primary" size="large" onClick={setDisplay}>
