@@ -24,8 +24,8 @@ function App() {
       setAuthor("Unknown");
     } else {
       setAuthor(data[rand].author);
-      setRand("Quote #" + rand);
     }
+    setRand("Quote #" + (rand + 1));
   }
 
   // run initially
